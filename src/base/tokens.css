@@ -1,0 +1,5 @@
+:root {
+  --rt-underline-thickness: 1px;
+  --rt-underline-offset: 0.08em;
+  --rt-multiline-lines: 2;
+}

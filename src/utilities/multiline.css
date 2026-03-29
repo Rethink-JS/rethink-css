@@ -1,0 +1,40 @@
+[rt-multiline] {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+[rt-multiline="1"] {
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+[rt-multiline="2"] {
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+[rt-multiline="3"] {
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+[rt-multiline="4"] {
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+}
+
+[rt-multiline="5"] {
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+}
+
+[rt-multiline="6"] {
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+}
+
+[rt-multiline="var"] {
+  -webkit-line-clamp: var(--rt-multiline-lines);
+  line-clamp: var(--rt-multiline-lines);
+}

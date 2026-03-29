@@ -1,0 +1,43 @@
+{
+  "name": "@rethink-js/rethink-css",
+  "version": "0.1.0",
+  "description": "A modular, attribute-driven CSS utility library by Rethink.",
+  "keywords": [
+    "css",
+    "rethink-js",
+    "utilities",
+    "webflow",
+    "design-system",
+    "attribute-based",
+    "no-class",
+    "ui"
+  ],
+  "author": "Rethink JS <opensource@rethink-js.org> (https://github.com/Rethink-JS)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rethink-JS/rethink-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rethink-JS/rethink-css/issues"
+  },
+  "homepage": "https://github.com/Rethink-JS/rethink-css#readme",
+  "type": "module",
+  "main": "dist/rethink.css",
+  "style": "dist/rethink.css",
+  "unpkg": "dist/rethink.min.css",
+  "jsdelivr": "dist/rethink.min.css",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": true,
+  "scripts": {
+    "generate:index": "node scripts/generate-index.mjs",
+    "build": "node scripts/build-css.mjs",
+    "dev": "node --watch scripts/build-css.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
